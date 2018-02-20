@@ -1,0 +1,16 @@
+body{
+
+}
+
+html { 
+  background: url(https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+  font-family:veranda;
+  font-size: 20px;
+}
