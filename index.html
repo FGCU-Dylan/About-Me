@@ -234,7 +234,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $nameErr = "Only letters and white space allowed"; 
     }
   }
-  
   if (empty($_POST["email"])) {
     $emailErr = "Email is required";
   } else {
@@ -257,8 +256,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					
 <a href = "https://scratch.mit.edu/users/FGCU_Dylan/">Scratch Project</a>
 <a href="https://www.linkedin.com/in/dylan-funk-7a1b6472/">LinkedIn</a>
+<a href="http://www.w3.org/html/logo/">
+  <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a>
 <footer class="center black padding-16">
- <input class="input section border" type="text" placeholder="CaesarCipher" id="Cipher" required name="Cipher" value="Submit">   
+<label for="Cipher">Caesar Cipher</label>
+<input class="input section border" type="text" placeholder="CaesarCipher" id="Cipher" required name="Cipher" value="Submit">   
 
 <!-- While this is not working JavaScript, it is included to fulfill the 9pt section of the rubric concerning JavaScript-->															     
 <script>                                       
@@ -289,9 +292,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 };          
 var TestVar =                                                                                                                              
 </script>                                       
-<a href="http://www.w3.org/html/logo/">
-  <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
-</a>
+
 </footer>
 
 
